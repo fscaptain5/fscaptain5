@@ -1,0 +1,409 @@
+
+
+<script language="JavaScript">
+    
+	<-- Begin
+	var password = 'asdvbhhvhxyxyxyf6'
+	password=prompt('Please enter the password:','');
+	if (password != 'asdvbhhvhxyxyxyf6') {
+	location.href='worng.pass';
+	}
+	// End -->
+	</script>
+<style>
+  
+        /* Googlefont Poppins CDN Link */
+	  @import url(&#39;https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700display=swap&#39;);
+	  *{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: &#39;Poppins&#39;, sans-serif;
+	  }
+  .text-reset {
+    --bs-text-opacity: 1;
+    color: inherit!important;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  .card {
+    box-shadow: 0 2px 20px 5px rgba(15, 0, 51, 0.05);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff;
+    background-clip: border-box;
+    border: 0 solid rgba(255, 255, 255, 0.125);
+    border-radius: 1rem;
+	}
+        #ContactForm2_contact-form-success-message{
+    color: rgb(255, 255, 255);
+  }
+	   .home-content{
+		position: relative;
+		padding-top: 0px;
+	  }
+	  .home-content .overview-boxes{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		
+		margin-bottom: 15px;
+	  }
+	  .overview-boxes .box{
+		display: flex;
+        color: white;
+		align-items: center;
+		justify-content: center;
+		width: calc(100% / 4 - 15px);
+		padding: 5px 5px 5px 5px;
+		border-radius: 12px;
+		box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+	  }
+	  .overview-boxes .box-topic{
+		font-size: 20px;
+		font-weight: 500;
+	  }
+	  .home-content .box .number{
+		display: inline-block;
+		font-size: 200%;
+		margin-top: -1px;
+		font-weight: 500;
+	  }
+	  .home-content .box .indicator{
+		display: flex;
+		align-items: center;
+	  }
+	  .main-income-1{
+		background: transparent linear-gradient(to right, #005A91 95%, #000000 0%) repeat;
+	  }
+	  .main-income-2{
+		background: transparent linear-gradient(to left, #005A91 95%, #FF8800 0%) repeat;
+	  }
+	  .main-income-3{
+		background: transparent linear-gradient(to right, #005A91 95%, #FF8800 0%) repeat;
+	  }
+	  .main-income-4{
+		background: transparent linear-gradient(to left, #005A91 95%, #000000 0%) repeat;
+	  }
+	  .home-content .box .indicator i{
+		height: 20px;
+		width: 20px;
+		background: #FF00F5;
+		line-height: 20px;
+		text-align: center;
+		border-radius: 50%;
+		color: #fff;
+		font-size: 20px;
+		margin-right: 5px;
+	  }
+	  .home-content .box .cart{
+		display: inline-block;
+		font-size: 32px;
+		height: 50px;
+		width: 50px;
+		background: #00000067;
+		line-height: 50px;
+		text-align: center;
+		color: #ffffff88;
+		border-radius: 12px;
+		margin: -15px 0 0 6px;
+	  }
+	  
+	  /* Right box */
+	  .home-content{
+		width: 99.99%;
+		padding: 10px 10px;
+		margin: 0 20px 0 0;
+		border-radius: 12px;
+	  
+      } 
+	  @media (max-width: 1150px) {
+		.home-content .sales-boxes{
+		  flex-direction: column;
+		}
+		.home-content .sales-boxes .box{
+		  width: 100%;
+		  overflow-x: scroll;
+		  margin-bottom: 30px;
+		}
+		.home-content {
+		  margin: 0;
+		}
+	  }
+	  @media (max-width: 1000px) {
+		.overview-boxes .box{
+		  width: calc(100% / 2 - 15px);
+		  margin-bottom: 15px;
+		}
+	  }
+
+		 nav .profile-details{
+		  height: 50px;
+		  min-width: 400px;
+		}
+		.home-content .sales-boxes .sales-details{
+		  width: 560px;
+		}
+	  
+	  @media (max-width: 550px) {
+		.overview-boxes{
+            width: 100%;
+		  margin-bottom: 15px;
+		}
+    }
+	  /*Local income*/
+     
+	 .incomebox{
+		display: flex;
+        color: white;
+		justify-content: center;
+		width: calc(100% / 4 - 15px);
+		background: transparent linear-gradient(to top, #000000 10%, #00589A 0%) repeat;
+
+		padding: 15px 14px;
+		border-radius: 12px;
+		box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+	  }
+	  .overview-boxes .box-topic{
+		font-size: 20px;
+		font-weight: 500;
+	  }
+	  .home-content .incomebox .incomenumber{
+		display: inline-block;
+		font-size: 150%;
+		margin-top: -6px;
+		font-weight: 500;
+	  }
+	  .home-content .incomebox .indicatortop{
+		display: flex;
+		align-items: center;
+	  }
+
+	  .incomebox .indicatortop i.down{
+		background: #0c0052;
+	  }
+	  .home-content .incomebox .indicatortop .totalintex{
+		font-size: 12px;
+	  }
+	  .home-content .incomebox .cart{
+		display: inline-block;
+		font-size: 32px;
+		height: 50px;
+		width: 50px;
+		line-height: 50px;
+		text-align: center;
+		color: #FE0000;
+		border-radius: 12px;
+		margin: -15px 0 0 6px;
+	  }
+	  .home-content .incomebox .cart.two{
+		 color: #ffd000;
+		 background: #f2c0ef;
+	   }
+	  .home-content .incomebox .cart.three{
+		 color: #12d600;
+		 background: #78ff8e;
+	   }
+	  .home-content .incomebox .cart.four{
+		 color: #e05260;
+		 background: #f7d4d7;
+	   }
+	  .home-content .total-order{
+		font-size: 20px;
+		font-weight: 500;
+	  }
+	  /* Right incomebox */
+	  @media (max-width: 1150px) {
+		.home-content {
+		  flex-direction: column;
+		}
+		.home-content{
+		  width: 100%;
+		  overflow-x: scroll;
+		  margin-bottom: 30px;
+		}
+		
+	  }
+	  @media (max-width: 1000px) {
+		.overview-boxes .incomebox{
+		  width: calc(100% / 2 - 15px);
+		  margin-bottom: 15px;
+		}
+	  }
+	  @media (max-width: 700px) {
+		nav .dashboard,
+		nav .profile-details .admin_name,
+		nav .profile-details i{
+		  display: none;
+		}
+		 nav .profile-details{
+		  height: 50px;
+		  min-width: 40px;
+		}
+		.home-content .sales-boxes .sales-details{
+		  width: 560px;
+		}
+	  }
+	  @media (max-width: 550px) {
+		.overview-boxes .incomebox{
+		  width: 100%;
+		  margin-bottom: 15px;
+		}
+		nav .profile-details{
+		  display: none;
+		}
+    }
+img{
+  height: 150px;
+  width: 100%;
+}
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZMWwJkNL8145DbcMmcKdna9ixmxjDzCMxO1lSlnn-I-Wz6cVF3UZ5kmw5U2WnwOi6Kmm0H8oj3CLk-DKUWwLizVwVJsCX1w0-a1Ra-rB4F5vwo9xb28gf15QyX_jhzgGgAaxCl_BVVK8uQ6JiifiKgO_tKAbJnZmctsQ2AwZuKl_fP4BoycMEXtNqwNw/s1280/20231228_175853.jpg">
+<div class="home-content">
+    <div class="overview-boxes">
+        <div class="box main-income-1">
+            <div class="right-side">
+              <div class="box-topic">Promotion</div>
+              <div id="Promotion" class="number"></div>
+              <div class="indicator">
+                <span class="text">Last Week <b id="Promotionh"></b></span>
+              </div>
+            </div>
+          </div>
+      <div class="box main-income-2">
+        <div class="right-side">
+          <div class="box-topic">Cashback</div>
+          <div id="Cashback" class="number"></div>
+          <div class="indicator">
+            <span class="text">Last Week <b id="Cashbackh"></b></span>
+          </div>
+        </div>
+      </div>
+      <div class="box main-income-3">
+        <div class="right-side">
+          <div class="box-topic">FebPoint</div>
+          <div id="FebPoint" class="number"></div>
+          <div class="indicator">
+            <span  class="text"> Last Week P&L <b id="FebPointh"></b></span>
+          </div>
+        </div>
+      </div>
+      <div class="box main-income-4">
+        <div class="right-side">
+          <div class="box-topic">Balance </div>
+          <div id="Balance" class="number"></div>
+          <div class="indicator">
+            <span class="text">Withdrawal <b id="Balanceh"></b></span>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+
+    <div class="overview-boxes">
+        <div class="incomebox">
+            <div class="right-side">
+              <div class="box-topic">MSE Supply</div>
+              <div id="Exchange" class="incomenumber"></div>
+              <div class="indicatortop">
+                <span class="totalintex">Last Week <b id="Exchangeh"></b></span>
+              </div>
+            </div>
+          </div>
+      <div class="incomebox">
+        <div class="right-side">
+          <div class="box-topic">Pending Stock</div>
+          <div id="sip-pay" class="incomenumber"></div>
+          <div class="indicatortop">
+            <span class="totalintex">Complete <b id="sip-payh"></b></span>
+          </div>
+        </div>
+      </div>
+      <div class="incomebox">
+        <div class="right-side">
+          <div class="box-topic">Total Cost</div>
+          <div id="Fixed" class="incomenumber"></div>
+          <div class="indicatortop">
+            <span  class="totalintex">Total Income <b id="Fixedh"></b></span>
+          </div>
+        </div>
+      </div>
+      <div class="incomebox">
+        <div class="right-side">
+          <div class="box-topic">Total Intrest</div>
+          <div id="Intrest" class="incomenumber"></div>
+          <div class="indicatortop">
+            <i class='bx bx-down-arrow-alt down'></i>
+            <span class="totalintex">Total Income <b id="Intresth"></b></span>
+          </div>
+        </div>
+      </div>
+      <div class="incomebox">
+        <div class="right-side">
+          <div class="box-topic">Total Income</div>
+          <div id="tti" class="incomenumber"></div>
+          <div class="indicatortop">
+            <i class='bx bx-down-arrow-alt down'></i>
+            <span class="totalintex">Last Week <b id="ttih"></b></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+    <!--Main Balance-->
+	<script>
+    document.getElementById("Promotion").innerHTML = "390.0";
+    </script> <script>
+    document.getElementById("Cashback").innerHTML = "56.0";
+    </script> <script>
+    document.getElementById("FebPoint").innerHTML = "76.5";
+    </script> <script>
+    document.getElementById("Balance").innerHTML = "565.0";
+    </script> 
+    <!--Histry-->
+	<script>
+        document.getElementById("Promotionh").innerHTML = "390.0";
+        </script> <script>
+        document.getElementById("Cashbackh").innerHTML = "56.0";
+        </script> <script>
+        document.getElementById("FebPointh").innerHTML = "76.5";
+        </script> <script>
+        document.getElementById("Balanceh").innerHTML = "500.0";
+    </script>
+    <!--Ranking Income-->
+    <script>
+    document.getElementById("Exchange").innerHTML = "500.0";
+    </script> <script>
+    document.getElementById("sip-pay").innerHTML = "250.0";
+    </script> <script>
+    document.getElementById("Fixed").innerHTML = "1500.0";
+    </script> <script>
+    document.getElementById("Intrest").innerHTML = "0.12%";
+    </script>
+     <script>
+        document.getElementById("tti").innerHTML = "810.0";
+    </script>
+    <!--Histry-->
+    <script>
+        document.getElementById("Exchangeh").innerHTML = "500.0";
+        </script> <script>
+        document.getElementById("sip-payh").innerHTML = "60.0";
+        </script> <script>
+        document.getElementById("Fixedh").innerHTML = "00.9";
+        </script> <script>
+        document.getElementById("Intresth").innerHTML = "110.0";
+    </script><script>
+        document.getElementById("ttih").innerHTML = "00.0";
+    </script></div>
+    
