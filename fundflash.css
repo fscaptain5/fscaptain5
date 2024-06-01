@@ -1,0 +1,124 @@
+
+  .mySlides{
+  width: 95%;
+  border-radius:10px 10px;
+  border:2px solid #0082FF;
+  margin-top: 10px;
+  margin-left:8px;
+}
+.btn-p{
+  background: #FF8800;
+  padding: 3px 15px 3px 15px;
+  border-radius:5px;
+  margin: 0px 10px 0px 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.btn-p:hover{
+  background: #00B9E800;
+  padding: 3px 15px 3px 15px;
+  border-radius: 5px;
+  margin: 0px 10px 0px 10px;
+  color: #000000;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: .5s;
+}
+.noteboard{
+  font-family:Monospace;
+  margin:10px;
+  background: #003966;
+  border-radius :5px;
+  font-size: 18px;
+  color: white;
+}
+.buttonbar{
+  background: #E9E9E9;
+  padding: 10px;
+  margin: 5px 10px 10px 10px;
+  border-radius:10px;
+  
+}
+.button-h {
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin: 4px 2px;
+  Border-radius:10px;
+  border: 1px solid #FFFFFF;
+}
+.c5{
+  background-color: #008AFF;
+}
+.c4{
+  background-color: #FEA400;
+}
+  .bo-img{
+margin-top:15px;
+    width: 100%;
+  }
+  .logo-simg{
+    height: 30px;
+  }
+.box56{
+  background: #F1F1F1;
+  padding: 10px;
+  margin:10px;
+  font-size: 13px;
+  color: #004285;
+  border-radius:10px;
+}
+.boxd5{
+  color: #FFFFFF;
+  display: inline-block;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvG7YiaTL1e9u7U8VEkwHEN0Isl-35tTTtfQ&usqp=CAU');
+  padding: 20px;
+  border-radius:10px;
+  margin :5px;
+}
+.boxd67{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwR9BTAstEZnXCn6WiDRHg9hB9QMMB8uJ17P6JLCLze5ISBBuMwDX3_7A&s=10');
+}
+.nametb{
+  color: #AAAAAA;
+  font-size: 35px;
+  font-family:cursive;
+}
+.inbox{
+  margin:10px;
+  background: #FFFFFF;
+  border-radius:3px;
+  font-size: 18px;
+  color: #007D87;
+  padding: 3px 10px 3px 10px;
+  border: 2px solid #00475E;
+  transition: 1s;
+  width: 280px;
+}
+.inbox:focus{
+  background:#E0E0E0;
+  outline:none;
+  border-radius:5px;
+  
+}
+::placeholder{
+  color: #005099;
+}
+.hide-s{
+  display: none;
+}
+.button{
+  margin:10px;
+  background: #0083B9;
+  border-radius:2px;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 5px 20px 5px 20px;
+  border: 2px solid #00475E;
+  transition: 1s;
+  width: 280px;
+}
